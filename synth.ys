@@ -1,0 +1,5 @@
+read_verilog src/dual_port_sram.v
+hierarchy -top dual_port_sram
+synth -top dual_port_sram
+write_verilog output/dual_port_sram_netlist.v
+
